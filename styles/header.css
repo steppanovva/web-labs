@@ -1,0 +1,90 @@
+@media screen and (max-width: 400px) {
+    header {
+        display: none;
+    }
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+blockquote {
+    margin: 0;
+    background-color: #14b7df;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-family: 'Bungee Shade', cursive;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 6px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    background: #14b7df;
+    padding: 0 15px;
+}
+
+blockquote:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    right: 15px;
+    height: 4px;
+    border-top: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+blockquote p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: .2em;
+    line-height: 1.4;
+}
+
+.content-bar {
+    float: left;
+}
+
+img.inform {
+    height: 150px;
+}
+
+.inform {
+    float: right;
+}
+
+section {
+    clear: both;
+}
+
+span.quote:nth-child(4n+1):hover {
+    color: #b6eb38;
+    text-shadow: 5px 5px #c35beb;
+}
+
+span.quote:nth-child(4n+2):hover {
+    color: #c35beb;
+    text-shadow: 5px 5px #b6eb38;
+}
+
+span.quote:nth-child(4n+3):hover {
+    color: crimson;
+    text-shadow: 5px 5px yellow;
+}
+
+span.quote:nth-child(4n):hover {
+    color: yellow;
+    text-shadow: 5px 5px crimson;
+}
