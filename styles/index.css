@@ -79,6 +79,17 @@ span.table-of-content:hover {
     font-style: italic;
 }
 
+.is-active {
+    box-shadow: -5px -5px #eb7f2d, 5px 5px #b6eb38;
+    font-style: italic;
+}
+
+#mouseTarget {
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+}
+
 .arrow {
     grid-area: arrow;
     position: relative;
