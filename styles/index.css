@@ -79,6 +79,11 @@ span.table-of-content:hover {
     font-style: italic;
 }
 
+.table-of-content a {
+    color: #4b5254;
+    text-decoration: none;
+}
+
 .is-active {
     box-shadow: -5px -5px #eb7f2d, 5px 5px #b6eb38;
     font-style: italic;
