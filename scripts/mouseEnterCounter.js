@@ -12,6 +12,5 @@ window.onload = function () {
             }, 1000);
             enterEventCount++;
         }
-    )
-    ;
+    );
 }
