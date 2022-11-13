@@ -25,12 +25,17 @@ span.footer {
     padding: 5px;
 }
 
+span.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
 span.footer:hover {
     box-shadow: -5px -5px yellow, 5px 5px crimson;
     font-style: italic;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     footer {
         font-size: 14px
     }
