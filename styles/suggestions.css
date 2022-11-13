@@ -1,0 +1,51 @@
+.suggest-form-input {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+.suggest-form-submit-button {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 15px;
+    color: #ffff;
+    background: #14b7df;
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.suggest-form-submit-button:hover {
+    background: #4b5254;
+    transition: ease 0.2s;
+}
+
+.suggest-ol-item {
+    display: flex;
+}
+
+.suggest-ol {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggest-ol-item__deleteBtn {
+    cursor: pointer;
+    border: none;
+    background: #4b5254;
+    color: #ffff;
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 0 8px;
+    transition: ease 0.2s;
+    margin-bottom: 20px;
+}
+
+.suggest-ol-item__deleteBtn:hover {
+    background: #b6eb38;
+    color: crimson;
+    transition: ease 0.2s;
+}
