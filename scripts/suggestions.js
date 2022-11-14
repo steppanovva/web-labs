@@ -1,25 +1,25 @@
 const form = document.querySelector(".suggest-form");
 const input = document.querySelector(".suggest-form-input");
 const list = document.querySelector(".suggest-ol");
-const localStorageKey = "suggestion";
+const key = "suggestion";
 
 function getSuggestions() {
-    let suggestions = JSON.parse(localStorage.getItem(localStorageKey));
+    let suggestions = JSON.parse(localStorage.getItem(key));
     if (!suggestions)
         return [];
     return suggestions;
 }
 
-function addSuggestionItem(value) {
+function addSuggestionItem(item) {
     let suggestions = getSuggestions();
-    suggestions.unshift(value);
-    localStorage.setItem(localStorageKey, JSON.stringify(suggestions));
+    suggestions.unshift(item);
+    localStorage.setItem(key, JSON.stringify(suggestions));
 }
 
-function deleteSuggestionItem(value) {
+function deleteSuggestionItem(item) {
     let suggestions = getSuggestions();
-    suggestions = suggestions.filter((item) => item !== value);
-    localStorage.setItem(localStorageKey, JSON.stringify(suggestions));
+    suggestions = suggestions.filter((x) => x !== item);
+    localStorage.setItem(key, JSON.stringify(suggestions));
 }
 
 function insertSuggestion(suggestion) {
