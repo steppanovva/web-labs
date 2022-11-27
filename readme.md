@@ -2,7 +2,7 @@
 <br>
 <p align="center"> <b>Welcome!</b></p>
 <p align ="center">
-    <img src="img/balto/balto.webp" alt="drawing" width="500"/> 
+    <img src="assets/balto/balto.webp" alt="drawing" width="500"/> 
 </p>
 
 
